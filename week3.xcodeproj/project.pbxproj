@@ -22,6 +22,8 @@
 		8C940FE9196CCB5C00984535 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C940FCD196CCB5C00984535 /* CoreData.framework */; };
 		8C940FF1196CCB5C00984535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C940FEF196CCB5C00984535 /* InfoPlist.strings */; };
 		8C940FF3196CCB5C00984535 /* week3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C940FF2196CCB5C00984535 /* week3Tests.m */; };
+		8C940FFF196CD2BC00984535 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C940FFD196CD2BC00984535 /* MainViewController.m */; };
+		8C941000196CD2BC00984535 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C940FFE196CD2BC00984535 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		8C940FEE196CCB5C00984535 /* week3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week3Tests-Info.plist"; sourceTree = "<group>"; };
 		8C940FF0196CCB5C00984535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C940FF2196CCB5C00984535 /* week3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week3Tests.m; sourceTree = "<group>"; };
+		8C940FFC196CD2BC00984535 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8C940FFD196CD2BC00984535 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8C940FFE196CD2BC00984535 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				8C940FDE196CCB5C00984535 /* Images.xcassets */,
 				8C940FDB196CCB5C00984535 /* week3.xcdatamodeld */,
 				8C940FD0196CCB5C00984535 /* Supporting Files */,
+				8C940FFC196CD2BC00984535 /* MainViewController.h */,
+				8C940FFD196CD2BC00984535 /* MainViewController.m */,
+				8C940FFE196CD2BC00984535 /* MainViewController.xib */,
 			);
 			path = week3;
 			sourceTree = "<group>";
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C940FD4196CCB5C00984535 /* InfoPlist.strings in Resources */,
+				8C941000196CD2BC00984535 /* MainViewController.xib in Resources */,
 				8C940FDF196CCB5C00984535 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +260,7 @@
 				8C940FDA196CCB5C00984535 /* AppDelegate.m in Sources */,
 				8C940FD6196CCB5C00984535 /* main.m in Sources */,
 				8C940FDD196CCB5C00984535 /* week3.xcdatamodeld in Sources */,
+				8C940FFF196CD2BC00984535 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
